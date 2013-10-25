@@ -15,7 +15,7 @@ end
 #      contentArray.push line
 #   }
 
-puts contentsArray[0]
+puts contentsArray[rand(contentsArray.length)]
 
 end
 
