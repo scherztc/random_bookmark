@@ -3,6 +3,10 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+sed -ne 's|.*\<A HREF="\(http[^"]*\)".*|\1|p' bookmarks.html > bookmark_url.lst 
+
+
+
 Things you may want to cover:
 
 * Ruby version

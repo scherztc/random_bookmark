@@ -14,7 +14,10 @@ class Randomizer
   end
 
   def display()
-    puts @contentsArray[rand(@contentsArray.length)]
+    value = @contentsArray[rand(@contentsArray.length)]
+    cmd = `open '#{value}'`
+    puts #{value}
+    puts = cmd
   end
 end
 
