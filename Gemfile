@@ -28,7 +28,7 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 
 gem 'om'
-gem 'activeresource'
+gem "activeresource", ">= 5.1.1"
 gem 'xbel'
 gem 'rspec'
 
